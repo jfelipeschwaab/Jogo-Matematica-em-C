@@ -1,44 +1,44 @@
 # Jogo de Cálculos Matemáticos
 
-Este é um jogo simples que desafia o jogador a resolver operações matemáticas de diferentes níveis de dificuldade. O objetivo é ganhar pontos acertando as respostas e, eventualmente, subir de nível.
+Um jogo interativo desenvolvido em C que desafia os jogadores com operações matemáticas de diferentes níveis de dificuldade. Resolva operações de soma, subtração e multiplicação para acumular pontos e avançar de nível.
 
----
+## Funcionalidades
 
-## 🛠️ Funcionalidades
-
-- **Níveis de dificuldade:** 
-  - Fácil: números entre 0 e 10.
-  - Médio: números entre 0 e 100.
-  - Difícil: números entre 0 e 1000.
-  - Insano: números entre 0 e 10000.
-- **Operações suportadas:** 
+- **Níveis de Dificuldade:**
+  - **1 - Fácil:** Operações com números de 0 a 10.
+  - **2 - Médio:** Operações com números de 0 a 100.
+  - **3 - Difícil:** Operações com números de 0 a 1000.
+  - **4 - Insano:** Operações com números de 0 a 10000.
+  
+- **Tipos de Operações:**
   - Soma
   - Subtração
   - Multiplicação
-- **Progressão automática:** O nível de dificuldade aumenta após acumular pontos suficientes.
-- **Tratamento de erros:** Entradas inválidas não quebram o jogo.
 
----
+- **Sistema de Pontuação:**
+  - Ganhe pontos por respostas corretas.
+  - Aumente o nível de dificuldade ao atingir marcos de pontuação.
 
-## 🚀 Como jogar?
+- **Tratamento de Entradas Inválidas:**
+  - O jogo lida com entradas inválidas, garantindo uma experiência contínua e sem interrupções.
 
-1. Execute o programa.
-2. Escolha um nível de dificuldade.
-3. Resolva as operações apresentadas.
-4. Continue jogando e suba de nível!
-5. Digite `n` para encerrar o jogo.
+## Instalação e Execução
 
----
+### 1. Clonar o Repositório
 
-## 🔧 Requisitos
+Primeiro, clone o repositório para o seu computador usando o Git:
 
-- **Sistema operacional:** Compatível com qualquer sistema que suporte C (Windows, Linux, MacOS).
-- **Compilador C:** GCC ou similar.
-
----
-
-## 💻 Compilação e Execução
-
-### Compilar:
 ```bash
-gcc jogo_matematica.c -o jogo_matematica
+git clone https://github.com/seu-usuario/jogo-calculos-matematicos.git
+```
+
+### 2. Navegar até o Diretório do Projeto
+```bash
+cd jogo-calculos-matematicos
+```
+### 3. Compilar o Código
+Certifique-se de ter o GCC instalado. Compile o código usando o seguinte comando:
+
+```bash
+gcc -o jogo jogo.c
+```
